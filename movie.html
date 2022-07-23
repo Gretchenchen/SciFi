@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guoqin Chen">
+    <meta name="date" content="2022-07-10">
+    <!-- add icon -->
+    <link rel="icon" href="images/robot.ico">
+    <!-- customize css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/181536840e.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <title><em>Movies</em></title>
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sci-Fi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="movie.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="tv.html">TV Series</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="animation.html">Animations</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-7 col-md-9 mx-auto">
+        <h1 class="fw-light">Ready for more movies?</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="signup.html" class="btn btn-warning my-2">Sign Up For New Releases</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h2>Space  Exploration</h2>
+      <hr class="row-divider">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class= card-img-top src="images/m-interstellar.JPG" alt="interstellar">
+            <div class="card-body">
+              <p class="card-text">A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.They left the Earth, when will they come back?  A masterpiece of Christopher Nolan.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt0816692/" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-martian.JPG" alt="martian">
+            <div class="card-body">
+              <p class="card-text">An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt3659388/" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-2001.JPG" alt="2001">
+            <div class="card-body">
+              <p class="card-text">After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt0062622/" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="row-divider">
+        <h2>Advanced Technology</h2>
+        <hr class="row-divider">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-ghostIntheShell.JPG" alt="ghost in the shell">
+            <div class="card-body">
+              <p class="card-text">Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the criminals.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt1219827/?ref_=tt_mv_close" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-minorityReport.JPG" alt="minority report">
+            <div class="card-body">
+              <p class="card-text">In a future where a special police unit is able to arrest murderers before they commit their crimes, an officer from that unit is himself accused of a future murder.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt0181689/?ref_=tt_mv_close" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-AI.JPG" alt="AI">
+            <div class="card-body">
+              <p class="card-text">A highly advanced robotic boy longs to become "real" so that he can regain the love of his human mother.the line between human beings and robots.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt0212720/?ref_=nv_sr_srsg_3" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="row-divider">
+        <h2>Time Travel</h2>
+        <hr class="row-divider">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-tenet.JPG" alt="tenet">
+            <div class="card-body">
+              <p class="card-text">Armed with only one word, Tenet, and fighting for the survival of the entire world, a journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt6723592/?ref_=tt_mv_close" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-adamProject.JPG" alt="adam project">
+            <div class="card-body">
+              <p class="card-text">After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self for a mission to save the future.He has risked everything to come back in time on a secret mission.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt2463208/?ref_=tt_mv_close" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-backToFuture.JPG" alt="avatar">
+            <div class="card-body">
+              <p class="card-text">Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt0088763/?ref_=ttls_li_i" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="row-divider">
+      <h2>Parallel Universes</h2>
+      <hr class="row-divider">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class=card-img-top src="images/m-everything.JPG" alt="everything everywhere all at once">
+          <div class="card-body">
+            <p class="card-text">An Chinese ageing immigrant is swept up in an insane adventure, where she can save the world by exploring other universes connecting with the lives she could have led.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.imdb.com/title/tt6710474/?ref_=fn_al_tt_1" class="btn btn-sm btn-outline-secondary">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class=card-img-top src="images/m-doctorStrange.JPG" alt="avatar">
+          <div class="card-body">
+            <p class="card-text">Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, which threaten to wipe out millions across the multiverse.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.imdb.com/title/tt1211837/?ref_=fn_al_tt_1" class="btn btn-sm btn-outline-secondary">View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class=card-img-top src="images/m-spiderman.JPG" alt="avatar">
+          <div class="card-body">
+            <p class="card-text">With Spider-Man's identity revealed, Peter asks Doctor Strange for help.When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it means to be Spider-Man.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://www.imdb.com/title/tt10872600/?ref_=nv_sr_srsg_0" class="btn btn-sm btn-outline-secondary">View More</a>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="row-divider">
+    <h2>Alien Lifeforms</h2>
+    <hr class="row-divider">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img class=card-img-top src="images/m-arrival.JPG" alt="arrival">
+        <div class="card-body">
+          <p class="card-text">A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://www.imdb.com/title/tt2543164/?ref_=nv_sr_srsg_0" class="btn btn-sm btn-outline-secondary">View More</a>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img class=card-img-top src="images/m-avatar.JPG" alt="avatar">
+        <div class="card-body">
+          <p class="card-text">A paraplegic Marine dispatched to the moon Pandora on a mission becomes torn between following his orders and protecting the world he feels is his home.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://www.imdb.com/title/tt0499549/?ref_=nv_sr_srsg_3" class="btn btn-sm btn-outline-secondary">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img class=card-img-top src="images/m-independenceDay.JPG" alt="avatar">
+        <div class="card-body">
+          <p class="card-text">The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="https://www.imdb.com/title/tt0116629/?ref_=nv_sr_srsg_0" class="btn btn-sm btn-outline-secondary">View More</a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <hr class="row-divider">
+        <h2>Comeing soon</h2>
+        <hr class="row-divider">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-blackAdam.JPG" alt="black adam">
+            <div class="card-body">
+              <p class="card-text">Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods-and imprisoned just as quickly-Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt6443346/?ref_=tt_mv_close" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-rubikon.JPG" alt="rubikon">
+            <div class="card-body">
+              <p class="card-text">Following a catastrophe on Earth, the planet is covered in a toxic fog. The crew in the space station, must decide whether to risk their lives to get home and search for survivors, or stay safe in the station's "algae symbiosis system.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt0816692/" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class=card-img-top src="images/m-moonfall.JPG" alt="moonfall">
+            <div class="card-body">
+              <p class="card-text">A mysterious force knocks the moon and sends it hurtling on a collision toward earth. Astronauts will mount an impossible last-ditch mission into space, leaving behind everyone they love, only to find that they might have prepared for the wrong mission.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.imdb.com/title/tt5834426/?ref_=tt_mv_close" class="btn btn-sm btn-outline-secondary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <hr class="row-divider">
+        <h2>Find the Nearest Cinema</h2>
+        <hr class="row-divider">
+        <div class="card shadow-lg">
+          <div class="card-body">attach google map</div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </main>
+
+<footer class="container">  
+  <i class="fa-brands fa-imdb"></i>
+  <i class=" social-icon fa-brands fa-facebook"></i>
+  <i class="social-icon fa-brands fa-twitter"></i>
+  <i class="social-icon fa-brands fa-instagram"></i>
+  <i class="social-icon fa-solid fa-envelope"></i>
+<p class="float-end"><a href="#">Back to top</a></p>
+<p>&copy; 2022 IMDB All Rights Reserved &middot; <a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
+</footer>
+
+</body>
+</html>
